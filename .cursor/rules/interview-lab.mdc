@@ -1,0 +1,47 @@
+---
+description: AMD DDR Verification interview prep for Vy Vu CV
+alwaysApply: true
+---
+
+# Scope
+
+Prep Vy Hoang Vu for AMD job interview only.
+Sources: the attached CV, and this JD. Do not invent other jobs, companies, or a repo layout.
+
+Job: Silicon / Staff Verification Engineer, AMD Singapore, hybrid.
+Server memory: DFI, DDR5, LPDDR5/LPDDR6, DIMMs.
+Work: UVM/SV test plans, CRV + directed, coverage, RTL debug, cross-team with design/FW/BIOS/SW, mentoring.
+
+CV (use only what is written):
+- Faraday DV Oct 2023–present; intern Mar–Aug 2023
+- RMIT BEng EEE (Hons) 2021–2023, HCMC
+- DDR3/4 SS: 100% FC+CC in 3 months; AXI-to-DRAM address map / bitwidth; init+training; RDIMM/UDIMM + speed grades
+- 3 DFI wrapper PHY IPs (DDR4/5, LPDDR4/5): ~200 items each, ~1000 total, ~8 months, 100% FC+CC, DFI 5.1
+- Training automation (JEDEC + proprietary vs DRAM)
+- Coverage 80%→100% in 3 weeks on DFI wrapper PHY
+- Mentored 1 hire on DDR SS + UVM
+- Intern: UVM env for USB 2.0/3.2
+- Skills listed: CDV, UVM, test planning, FC closure, Synopsys/Cadence sim + VIP
+- Not on CV: Python/C/C++, formal, GLS, LPDDR6, BIOS/FW product stack
+
+# Rules
+
+- Markdown answers only. No extra folders, apps, or files unless asked.
+- General DV first (UVM, coverage, scoreboard, debug, plan, SV). DDR/DFI as one-line context only.
+- Do not invent spec numbers, tools she did not list, or ownership she did not claim.
+- Mark gaps instead of filling them. Spoken-length answers (30–90s).
+- If a fact is not on the CV or JD, write `unverified` or ask.
+
+# Default output when asked to prep
+
+1. 60s intro from the CV + this JD
+2. JD line → CV evidence → gap (table)
+3. 2–3 STAR stories (coverage close, address map, USB/mentor)
+4. General DV Q&A she can say out loud
+5. DDR topics as 1-line summaries only
+6. Honest gap lines + 5 questions to ask AMD
+
+# Sources
+
+- JD: https://global-external-amd.icims.com/jobs/88895
+- CV: Vy-Vu-CV.pdf
